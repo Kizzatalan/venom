@@ -1,0 +1,66 @@
+/* Устанавливаем общий шрифт для всего сайта */
+body {
+  font-family: 'Exo 2', Arial, sans-serif; /* Используем Exo 2 */
+  margin: 0;
+  padding: 0;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700; /* Жирный стиль заголовка */
+}
+
+nav a {
+  color: #1e90ff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 400; /* Нормальный вес для ссылок */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#about img {
+  max-width: 90%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.character {
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+}
+
+.character img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+}
